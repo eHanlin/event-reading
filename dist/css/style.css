@@ -1,0 +1,44 @@
+@charset "UTF-8";
+html, body {
+  margin: 0;
+  width: 100%;
+  height: 100%; }
+
+body {
+  background-image: url("../img/bg-enter.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed; }
+
+.confirm {
+  position: absolute;
+  left: 22%;
+  bottom: 18%;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  display: inline-block;
+  width: 270px;
+  height: 110px;
+  border-radius: 55px;
+  background-color: #d05135;
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: 5px;
+  font-weight: bold; }
+  .confirm h3 {
+    cursor: pointer;
+    font-family: 微軟正黑體;
+    line-height: 80px;
+    width: 240px;
+    height: 80px;
+    border-radius: 40px;
+    border: 3px solid #ffd284;
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .confirm h3:hover {
+      color: #ffd284; }
